@@ -1,0 +1,14 @@
+DROP TABLE Center;
+
+CREATE TABLE Center
+(ClinicID INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+ClinicName VARCHAR(50) NOT NULL,
+ClinicAddressLineOne VARCHAR(50) NOT NULL,
+ClinicAddressLineTwo VARCHAR(50) NULL,
+ClinicAptNumber INT NULL,
+ClinicCity VARCHAR(50) NOT NULL,
+ClinicState VARCHAR(50) NOT NULL,
+ClinicZipCode INT NOT NULL,
+ClinicPhoneNumber VARCHAR(50) NOT NULL,
+ClinicEmail VARCHAR(50) NOT NULL,
+ClinicCapacity INT NOT NULL);

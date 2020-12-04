@@ -1,0 +1,6 @@
+CREATE FUNCTION TotalMedicationCost (@MedCost MONEY, @Dosage FLOAT)
+RETURNS MONEY
+AS
+BEGIN
+RETURN @MedCost * @Dosage
+END;
