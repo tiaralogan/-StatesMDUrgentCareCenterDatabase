@@ -14,7 +14,7 @@ INSERT INTO PatientInformation (PatientID, PatientFirstName, PatientMiddleInitia
 PatientAptNumber, PatientCity, PatientState, PatientZipcode, PatientPhoneNumber, PatientEmail, patientIdentCardNum)
 
 VALUES (0123456, 'Tiara', 'I', 'Logan', '39 Eigth Street', NULL, NULL, 'Brentwood', 'NY', 11717, '6318825268', 'tiaralogan12@gmail.com', 'SID6872'), 
-(6764256, 'Imani', 'I', 'Reynoso', '98 Sheriton', NULL, NULL, 'Bronx', 'NY', 11204, '6898786545', 'imanireynoso2020@gmail.com', 'SID9084');
+(6764256, 'Imani', 'I', 'Preston', '98 Sheriton', NULL, NULL, 'Bronx', 'NY', 11204, '6898786545', 'imanipreston2020@gmail.com', 'SID9084');
 
 
 SET IDENTITY_INSERT PatientInformation OFF;
